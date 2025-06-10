@@ -14,8 +14,14 @@
     padding: 20px;
 }
 
-.nav-link {
+a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #c25ba8;
+
 }
 
 .text-dark {
@@ -25,6 +31,14 @@
 .nav {
     /* display: flex; */
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    /* ใส่สีพื้นหลังให้ไม่โปร่ง */
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* ใส่เงานิดนึงสวยๆ */
 }
 
 .center {
@@ -80,7 +94,69 @@
     color: #c25ba8;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: auto auto;
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    align-content: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    /* หรือเปลี่ยนตามขนาดหน้าจอ */
+}
+
+.center {
+    justify-items: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.body {
+    background-color: #a0c9fb;
+}
+
+.upDown {
+    animation: upDownAnim 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes upDownAnim {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+.mt-3 {
+    margin-top: 3%;
+}
+
+.mt-2 {
+    margin-top: 2%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
 }
