@@ -10,17 +10,17 @@
 
 <body>
     <!-- ความหมาย -->
-    <section id="home" class="container mt-3 scroll-margin" style="box-sizing: border-box; border: 1px solid #aaa; ">
-        <div class="d-flex title" style="justify-content: center;">
+    <section id="home" class="container mt-3 scroll-margin ">
+        <div class="d-flex title fade-up delay-1" style="justify-content: center;">
             <h1 style="color:rgb(247, 98, 247); font-size: 35px;">ความหมายของคำว่า</h1>
             <h1 style="color:rgb(74, 137, 252); margin-left: 3px; font-size: 35px;">ผู้สูงอายุ</h1>
         </div>
         <div class="grid">
-            <div class="img">
-                <img src="https://modernformhealthcare.co.th/wp-content/uploads/2024/02/happy-asian-senior-couple-smiling-outside.webp"
-                    alt="" style="">
+            <div class="img fade-up delay-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVcJ-2dSYXfc_q2OXTNRXXWamxUCQqOVapA&s"
+                    alt="">
             </div>
-            <div class="detail mt-2">
+            <div class="detail mt-2 fade-up delay-3">
 
                 <p style=" line-height: 1.5; text-indent: 30px;">ผู้สูงอายุ หรือ ผู้สูงวัย คือ
                     บุคคลอันเป็นที่เคารพรักของลูกหลาน เป็นร่มโพธิ์ร่มไทรของทุกคนในครอบครัว
@@ -70,17 +70,16 @@
     </section>
 
     <!-- การเปลี่ยนแปลงของผู้สูงอายุ -->
-    <section id="change_elder" class="container mt-3 scroll-margin "
-        style="box-sizing: border-box; border: 1px solid #aaa;">
+    <section id="change_elder" class="container mt-3 scroll-margin ">
         <div class="title">
-            <h1 style="color:rgb(74, 137, 252); font-size: 35px; justify-self: center; ">การเปลี่ยนแปลงของผู้สูงอายุ
+            <h1 style="color:rgb(74, 137, 252); font-size: 35px; justify-self: center; " class="delay-1 fade-up">การเปลี่ยนแปลงของผู้สูงอายุ
             </h1>
         </div>
         <div class="d-flex ">
-            <div class="img"><img
-                    src="https://modernformhealthcare.co.th/wp-content/uploads/2024/02/asian-elderly-couple-feeling-happy-smiling-looking-camera-while-relax-living-room-home.webp"
-                    alt="" class="img-fluid mt-2"></div>
-            <div class="show_li mt-2 ms-3">
+            <div class="img delay-2 fade-up" style="    text-align: center;"><img
+                    src="data:image/jpeg;base64,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"
+                    alt=""></div>
+            <div class="show_li mt-2 ms-3 delay-1 fade-up fade-up">
                 <h2>
                     <li style="color:rgb(89, 186, 252);  text-indent: 30px;">การเปลี่ยนแปลงทางร่างกายของผู้สูงอายุ
                     </li>
@@ -100,7 +99,7 @@
 
         <div class="detail mt-2">
 
-            <div class="show_li mt-2 ">
+            <div class="show_li mt-2 delay-2 fade-up">
                 <h2>
                     <li style="color:rgb(89, 186, 252);  text-indent: 30px;">
                         การเปลี่ยนแปลงทางอารมณ์และจิตใจของผู้สูงอายุ</li>
@@ -115,7 +114,7 @@
                     หากไม่เอาใจใส่หรือดูแลคนแก่ไม่ดีก็จะเพิ่มความเสี่ยงในการเกิดปัญหาด้านจิตใจ เช่น ภาวะซึมเศร้า
                     ความวิตกกังวลได้</p>
             </div>
-            <div class="show_li mt-2 ">
+            <div class="show_li mt-2 delay-3 fade-up">
                 <h2>
                     <li style="color:rgb(89, 186, 252);  text-indent: 30px;">
                         การเปลี่ยนแปลงทางสมองของผู้สูงอายุ</li>
@@ -129,7 +128,7 @@
                     โดยการเปลี่ยนแปลงทางด้านสมองอาจนำไปสู่โรคที่เกี่ยวข้องกับความเสื่อมของสมอง อาทิ โรคอัลไซเมอร์
                     โรคพาร์กินสัน โรคหลอดเลือดสมองแตก โรคหลอดเลือดในสมองได้อีกด้วย</p>
             </div>
-            <div class="show_li mt-2 ">
+            <div class="show_li mt-2 delay-4 fade-up">
                 <h2>
                     <li style="color:rgb(89, 186, 252);  text-indent: 30px;">
                         การเปลี่ยนแปลงทางสังคมของผู้สูงอายุ</li>
@@ -149,13 +148,14 @@
 
     </section>
     <!-- ปัญหาที่พบบ่อยในวัยผู้สูงอายุ -->
-    <section id="problem_elder" class="container mt-3 scroll-margin "
-        style="box-sizing: border-box; border: 1px solid #aaa;">
-        <div class="title">
-            <h1 style="color:rgb(74, 137, 252); font-size: 35px;">ปัญหาที่พบบ่อยในวัยผู้สูงอายุ</h1>
+    <section id="problem_elder" class="container mt-3 scroll-margin ">
+        <div class="title delay-1 fade-up">
+            <h1 style="color:rgb(252, 74, 193); font-size: 35px; justify-self: center; ">ปัญหาที่พบบ่อยในวัยผู้สูงอายุ</h1>
         </div>
-
-        <div class="detail mt-2">
+        <div class="img delay-2 fade-up" style="    text-align: center;"><img
+                src="data:image/jpeg;base64,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"
+                alt=""></div>
+        <div class="detail mt-2 delay-3 fade-up">
             <div class="show_li mt-2 ">
                 <h2>
                     <li style="color:rgb(89, 186, 252);  text-indent: 30px;">สุขภาพร่างกายและโรคประจำตัว</li>
@@ -248,20 +248,22 @@
         </div>
     </section>
     <!-- การดูแลผู้สูงอายุ -->
-    <section id="care_eldrly" class="container mt-3 ad scroll-margin mb-5"
-        style="box-sizing: border-box; border: 1px solid #aaa;">
-        <div class="title">
-            <h1 style="color:rgb(247, 98, 247); font-size: 35px;">การดูแลผู้สูงอายุแบบองค์รวม</h1>
+    <section id="care_eldrly" class="container mt-3 ad scroll-margin mb-5 ">
+        <div class="title delay-1 fade-up d-flex" style="justify-content: center;">
+            <h1 style="color:rgb(54, 124, 255); font-size: 35px;  justify-self: center;">การดูแลผู้สูงอายุ</h1>
+            <h1 style="color:rgb(247, 98, 247); font-size: 35px;  justify-self: center;">แบบองค์รวม</h1>
         </div>
-
-        <div class="detail mt-2">
+        <div class="img delay-2 fade-up" style="    text-align: center;"><img
+                src="data:image/jpeg;base64,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"
+                alt=""></div>
+        <div class="detail mt-2 delay-3 fade-up">
             <p style=" line-height: 1.5; text-indent: 30px;">ลำดับต่อมาคนในครอบครัวต้องช่วยกันดูแลเอาใจใส่ผู้สูงอายุ
                 ทั้งในเรื่องของปัจจัยสี่ ได้แก่ อาหาร
                 เสื้อผ้าเครื่องนุ่งห่ม ที่อยู่อาศัย และการดูแลสุขภาพ การรักษาพยาบาล
                 รวมถึงการดูแลให้ครอบคลุมทั้งทางด้านร่างกายและจิตใจ ซึ่งเป็นการดูแลผู้สูงอายุแบบองค์รวม โดยสามารถยึด หลัก
                 5 อ. ใน การดูแลผู้สูงอายุ ซึ่งมีรายละเอียดดังต่อไปนี้</p>
             <p style=" line-height: 1.5; text-indent: 30px ;" class="mt-2">
-                1. อาหาร ดูแลเรื่องโภชนาการในผู้สูงอายุเพื่อสุขภาพที่แข็งแรงและลดความรุนแรงของโรคต่างๆ
+                <strong>1. อาหาร</strong> ดูแลเรื่องโภชนาการในผู้สูงอายุเพื่อสุขภาพที่แข็งแรงและลดความรุนแรงของโรคต่างๆ
                 โดยผู้สูงอายุควรทานอาหารให้ครบ 5 หมู่ ในปริมาณที่เพียงพอต่อความต้องการของร่างกาย
                 ลดอาหารประเภทคาร์โบไฮเดรต (ข้าว แป้ง และน้ำตาล) และไขมัน (น้ำมันจากสัตว์ พืช ไข่แดง เนย)
                 เน้นทานโปรตีนโดยเฉพาะเนื้อปลา แต่ไข่แดงควรกินไม่เกิน 3 ฟองต่อสัปดาห์ กินผัก ถั่ว และธัญพืชต่างๆ ให้มาก
@@ -270,13 +272,14 @@
                 เพราะโอกาสเกิดอันตรายจากการใช้ยาในผู้สูงอายุมีมาก ดังนั้น ลูกหลานจึงต้องดูแลอย่างใกล้ชิด
             </p>
             <p style=" line-height: 1.5; text-indent: 30px;" class="mt-2">
-                2. ออกกำลังกาย ผู้สูงอายุ ควรออกกำลังกาย 3-4 ครั้งต่อสัปดาห์ เพื่อกระตุ้นจังหวะการเต้นของหัวใจ
+                <strong>2. ออกกำลังกาย</strong> ผู้สูงอายุ ควรออกกำลังกาย 3-4 ครั้งต่อสัปดาห์ เพื่อกระตุ้นจังหวะการเต้นของหัวใจ
                 การบริหารร่างกายให้ได้ครบทุกส่วนของร่างกาย จะช่วยฝึกกล้ามเนื้อและความยืดหยุ่นของร่างกาย
                 ทำให้การเคลื่อนไหวและการทรงตัวดีขึ้น เป็นการป้องกันการพลัดตกหกล้มที่อาจเกิดขึ้นได้ง่าย
                 การออกกำลังกายที่เหมาะกับผู้สูงอายุ เช่น ยืดเหยียด รำไทเก็ก รำไม้พลอง โยคะ เดินเร็ว ว่ายน้ำ เป็นต้น
                 หลีกเลี่ยงการออกแรงเกินกำลัง การเกร็ง เบ่ง ยกน้ำหนัก การใช้ความเร็วสูง ไม่อยู่ในสถานที่ร้อนอบอ้าว
-                อากาศถ่ายเทไม่สะดวก หรือกลางแดดจ้า</p>
-            <p style=" line-height: 1.5; text-indent: 30px;" class="mt-2"> 3. อนามัย ผู้สูงอายุ ควรลด ละ เลิก
+                อากาศถ่ายเทไม่สะดวก หรือกลางแดดจ้า
+            </p>
+            <p style=" line-height: 1.5; text-indent: 30px;" class="mt-2"> <strong>3. อนามัย</strong> ผู้สูงอายุ ควรลด ละ เลิก
                 สิ่งที่เป็นอันตรายต่อสุขภาพ เช่น เหล้า บุหรี่ รวมถึงพฤติกรรมเสี่ยงต่างๆ สังเกตการทำงานของอวัยวะต่างๆ
                 ในร่างกาย โดยเฉพาะระบบขับถ่าย และตรวจสุขภาพเป็นประจำทุกปี จัดสิ่งแวดล้อมให้มีสภาพที่ถูกต้องเหมาะสม
                 มีอากาศถ่ายเทสะดวก แสงสว่างพอเหมาะ มีความปลอดภัย พื้นต้องไม่ลื่น มีราวจับเพื่อช่วยในการทรงตัว
@@ -286,7 +289,7 @@
                 เกิดภาวะแทรกซ้อนและนอนติดเตียง ภาวะสับสนฉับพลัน (delirium) ซึ่งอาจเกิดอันตรายในระยะยาวหรือถึงแก่ชีวิตได้
             </p>
             <p style=" line-height: 1.5; text-indent: 30px;" class="mt-2">
-                4. อารมณ์ ฝึกควบคุมอารมณ์ ความรู้สึกนึกคิดของตนเอง
+                <strong>4. อารมณ์</strong> ฝึกควบคุมอารมณ์ ความรู้สึกนึกคิดของตนเอง
                 ทำความรู้จักและเข้าใจตนเองถึงการเปลี่ยนแปลงตามธรรมชาติจากวัยที่เพิ่มขึ้น ปล่อยวางกับเรื่องต่างๆ
                 ให้ได้มากที่สุด ไม่ยึดติดกับสิ่งเดิมๆ มองโลกในแง่บวก ทำจิตใจให้ร่าเริง ยิ้มแย้มแจ่มใส ไม่เครียด
                 เพื่อใช้ชีวิตที่เหลืออยู่อย่างมีความสุขและมีคุณภาพ
@@ -294,7 +297,7 @@
 
             </p>
             <p style=" line-height: 1.5; text-indent: 30px;" class="mt-2">
-                5. อดิเรก สร้างคุณค่าให้ตนเองโดยการหางานอดิเรกที่ชื่นชอบทำ เช่น ปลูกต้นไม้ เลี้ยงสัตว์ เข้าวัดฟังธรรม
+                <strong>5. งานอดิเรก</strong> สร้างคุณค่าให้ตนเองโดยการหางานอดิเรกที่ชื่นชอบทำ เช่น ปลูกต้นไม้ เลี้ยงสัตว์ เข้าวัดฟังธรรม
                 เข้าร่วมชมรมต่างๆ หาโอกาสพบปะสังสรรค์กับเพื่อนรุ่นเดียวกันเป็นครั้งคราว
                 ช่วยเหลือให้คำปรึกษาแนะนำแก่ลูกหลานและคนรอบข้าง การได้ทำกิจกรรมต่างๆ จะทำให้ผู้สูงอายุไม่เหงา
                 เกิดความอบอุ่น และรู้สึกถึงคุณค่าของตนเอง
@@ -304,5 +307,34 @@
         </div>
     </section>
 </body>
+<script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    });
+
+    document.querySelectorAll('.fade-up').forEach(el => {
+        observer.observe(el);
+    });
+</script>
+<footer>
+    <div class="row " style="gap: 30px;     justify-self: center;">
+        <div>
+            <p>จัดทำโดย</p>
+            <p>น.ส.พรพรรณ์ นิลารัตน์</p>
+            <p>โรงเรียนสวนกุหลาบวิทยาลัย(จิรประวัติ)นครสวรรค์</p>
+        </div>
+        <div>
+            <p>อ้างอิงข้อมูลจาก</p>
+            <p>https://modernformhealthcare.co.th/how-to-take-care-elderly-people/</p>
+
+        </div>
+    </div>
+
+
+</footer>
 
 </html>
